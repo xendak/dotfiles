@@ -1,0 +1,19 @@
+#/bin/sh
+
+if [ "$1" = "off" ]; then
+    bluetoothctl power off
+else
+    rk=$(rfkill | grep blue | head -n 1 | cut -d ' ' -f 7)
+    if [ "$rk" = "blocked" ]; then
+        rfkill unblock bluetooth
+        echo "Unblocked"
+    fi
+    sleep(2)
+    rk=$(rfkill | grep blue | head -n 1 | cut -d ' ' -f 5)
+    if [ "$rk" = "unblocked" ]; then
+        echo "Turning On"
+        bluetoothctl power on
+        bluetoothctl agent on
+        bluetoothctl connect 2c:fd:b3:f0:29:5a
+    fi
+fi

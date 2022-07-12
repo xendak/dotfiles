@@ -1,0 +1,237 @@
+[   0.010][v][cplayer] mpv 0.34.1-dirty Copyright © 2000-2021 mpv/MPlayer/mplayer2 projects
+[   0.010][v][cplayer]  built on UNKNOWN
+[   0.010][v][cplayer] FFmpeg library versions:
+[   0.010][v][cplayer]    libavutil       57.17.100
+[   0.010][v][cplayer]    libavcodec      59.18.100
+[   0.010][v][cplayer]    libavformat     59.16.100
+[   0.010][v][cplayer]    libswscale      6.4.100
+[   0.010][v][cplayer]    libavfilter     8.24.100
+[   0.010][v][cplayer]    libswresample   4.3.100
+[   0.010][v][cplayer] FFmpeg version: n5.0.1
+[   0.010][v][cplayer] 
+[   0.010][v][cplayer] Configuration: /usr/bin/waf configure --prefix=/usr --confdir=/etc/mpv --enable-cdda --enable-dvb --enable-dvdnav --enable-libarchive --enable-libmpv-shared --disable-build-date --disable-caca
+[   0.010][v][cplayer] List of enabled features: alsa asm cdda cplayer cplugins cuda-hwaccel cuda-interop debug-build drm dvbin dvdnav egl egl-drm egl-helpers egl-x11 ffmpeg ffmpeg-aviocontext-bytes-read ffnvcodec gbm gbm.h gl gl-wayland glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libm libmpv-shared libplacebo librt linux-fstatfs linux-input-event-codes lua luajit memfd_create optimize plain-gl posix posix-or-mingw pthreads pulse rubberband shaderc shaderc-static stdatomic uchardet vaapi vaapi-drm vaapi-egl vaapi-vulkan vaapi-wayland vaapi-x-egl vaapi-x11 vdpau vector vt.h vulkan wayland wayland-protocols x11 xv zimg zlib
+[   0.010][d][osc] Loading lua script @osc.lua...
+[   0.010][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.010][d][stats] Loading lua script @stats.lua...
+[   0.010][d][console] Loading lua script @console.lua...
+[   0.010][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.010][d][osc] loading mp.defaults
+[   0.010][d][ytdl_hook] loading mp.defaults
+[   0.011][d][stats] loading mp.defaults
+[   0.011][d][global] config path: 'scripts' -/-> '/home/raech/.config/mpv/scripts'
+[   0.011][d][global] config path: 'scripts' -/-> '/home/raech/.mpv/scripts'
+[   0.011][d][global] config path: 'scripts' -/-> '/etc/mpv/scripts'
+[   0.011][v][cplayer] Waiting for scripts...
+[   0.011][d][console] loading mp.defaults
+[   0.011][d][auto_profiles] loading mp.defaults
+[   0.012][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.012][d][console] loading @console.lua
+[   0.012][d][osc] loading @osc.lua
+[   0.012][d][stats] loading @stats.lua
+[   0.012][d][auto_profiles] loading @auto_profiles.lua
+[   0.013][d][ytdl_hook] reading options for ytdl_hook 
+[   0.013][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/raech/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.013][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/raech/.mpv/script-opts/ytdl_hook.conf'
+[   0.013][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.013][d][ytdl_hook] script-opts/ytdl_hook.conf not found. 
+[   0.013][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/raech/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.013][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/raech/.mpv/lua-settings/ytdl_hook.conf'
+[   0.013][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.013][d][ytdl_hook] lua-settings/ytdl_hook.conf not found. 
+[   0.014][d][console] reading options for console 
+[   0.014][d][global] config path: 'script-opts/console.conf' -/-> '/home/raech/.config/mpv/script-opts/console.conf'
+[   0.014][d][global] config path: 'script-opts/console.conf' -/-> '/home/raech/.mpv/script-opts/console.conf'
+[   0.014][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.014][d][console] script-opts/console.conf not found. 
+[   0.014][d][global] config path: 'lua-settings/console.conf' -/-> '/home/raech/.config/mpv/lua-settings/console.conf'
+[   0.014][d][global] config path: 'lua-settings/console.conf' -/-> '/home/raech/.mpv/lua-settings/console.conf'
+[   0.014][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.014][d][console] lua-settings/console.conf not found. 
+[   0.014][d][auto_profiles] Exiting...
+[   0.014][d][global] config path: 'fonts' -/-> '/home/raech/.config/mpv/fonts'
+[   0.014][d][global] config path: 'fonts' -/-> '/home/raech/.mpv/fonts'
+[   0.014][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.014][d][osd/libass] ASS library version: 0x1502000 (runtime 0x1600000)
+[   0.014][v][osd/libass] libass API version: 0x1600000
+[   0.014][v][osd/libass] libass source: commit: 0.16.0-0-g1af6240c5d1e499326146e0b88c987e626b13c23-dirty
+[   0.014][v][osd/libass] Shaper: FriBidi 1.0.12 (SIMPLE) HarfBuzz-ng 4.4.1 (COMPLEX)
+[   0.014][d][global] config path: 'subfont.ttf' -/-> '/home/raech/.config/mpv/subfont.ttf'
+[   0.014][d][global] config path: 'subfont.ttf' -/-> '/home/raech/.mpv/subfont.ttf'
+[   0.014][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.014][d][global] config path: 'fonts.conf' -/-> '/home/raech/.config/mpv/fonts.conf'
+[   0.015][d][global] config path: 'fonts.conf' -/-> '/home/raech/.mpv/fonts.conf'
+[   0.015][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.015][v][osd/libass] Setting up fonts...
+[   0.016][d][stats] reading options for stats 
+[   0.016][d][global] config path: 'script-opts/stats.conf' -/-> '/home/raech/.config/mpv/script-opts/stats.conf'
+[   0.016][d][global] config path: 'script-opts/stats.conf' -/-> '/home/raech/.mpv/script-opts/stats.conf'
+[   0.016][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.016][d][stats] script-opts/stats.conf not found. 
+[   0.016][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/raech/.config/mpv/lua-settings/stats.conf'
+[   0.016][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/raech/.mpv/lua-settings/stats.conf'
+[   0.016][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.016][d][stats] lua-settings/stats.conf not found. 
+[   0.018][d][osc] reading options for osc 
+[   0.018][d][global] config path: 'script-opts/osc.conf' -/-> '/home/raech/.config/mpv/script-opts/osc.conf'
+[   0.018][d][global] config path: 'script-opts/osc.conf' -/-> '/home/raech/.mpv/script-opts/osc.conf'
+[   0.018][d][global] config path: 'script-opts/osc.conf' -/-> '/etc/mpv/script-opts/osc.conf'
+[   0.018][d][osc] script-opts/osc.conf not found. 
+[   0.018][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/raech/.config/mpv/lua-settings/osc.conf'
+[   0.018][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/raech/.mpv/lua-settings/osc.conf'
+[   0.018][d][global] config path: 'lua-settings/osc.conf' -/-> '/etc/mpv/lua-settings/osc.conf'
+[   0.018][d][osc] lua-settings/osc.conf not found. 
+[   0.025][v][osd/libass] Using font provider fontconfig
+[   0.026][v][osd/libass] Done.
+[   0.027][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.027][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.027][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.027][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.028][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.028][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.028][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.028][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.028][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.028][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.028][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.028][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.028][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nshift+mbtn_left script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nmbtn_mid script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.028][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.028][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.028][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.028][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-visibility=auto"]
+[   0.028][v][cplayer] Set property: shared-script-properties -> 1
+[   0.028][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.028][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.028][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.028][v][cplayer] Set property: shared-script-properties -> 1
+[   0.028][v][cplayer] Done loading scripts.
+[   0.028][d][global] config path: 'watch_later' -> '/home/raech/.config/mpv/watch_later'
+[   0.028][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.029][v][ytdl_hook] ytdl:// hook 
+[   0.029][v][ytdl_hook] not a ytdl:// url 
+[   0.029][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.029][v][cplayer] Set property: shared-script-properties -> 1
+[   0.029][v][ifo_dvdnav] Opening /usr/share/sounds/freedesktop/stereo/message.oga
+[   0.029][d][osc] osc_init 
+[   0.029][v][bdmv/bluray] Opening /usr/share/sounds/freedesktop/stereo/message.oga
+[   0.029][v][file] Opening /usr/share/sounds/freedesktop/stereo/message.oga
+[   0.029][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.029][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.029][d][file] Stream opened successfully.
+[   0.029][v][demux] Trying demuxers for level=normal.
+[   0.029][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.029][v][cplayer] Set property: shared-script-properties -> 1
+[   0.029][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.029][d][global] config path: 'fonts' -/-> '/home/raech/.config/mpv/fonts'
+[   0.029][d][global] config path: 'fonts' -/-> '/home/raech/.mpv/fonts'
+[   0.029][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.029][d][osd/libass] ASS library version: 0x1502000 (runtime 0x1600000)
+[   0.029][v][osd/libass] libass API version: 0x1600000
+[   0.029][v][osd/libass] libass source: commit: 0.16.0-0-g1af6240c5d1e499326146e0b88c987e626b13c23-dirty
+[   0.030][v][osd/libass] Shaper: FriBidi 1.0.12 (SIMPLE) HarfBuzz-ng 4.4.1 (COMPLEX)
+[   0.030][d][global] config path: 'subfont.ttf' -/-> '/home/raech/.config/mpv/subfont.ttf'
+[   0.030][d][global] config path: 'subfont.ttf' -/-> '/home/raech/.mpv/subfont.ttf'
+[   0.030][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.030][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.030][d][global] config path: 'fonts.conf' -/-> '/home/raech/.config/mpv/fonts.conf'
+[   0.030][d][global] config path: 'fonts.conf' -/-> '/home/raech/.mpv/fonts.conf'
+[   0.030][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.030][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.030][v][osd/libass] Setting up fonts...
+[   0.030][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.030][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.030][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   0.035][d][demux] Trying demuxer: lavf (force-level: normal)
+[   0.044][v][osd/libass] Using font provider fontconfig
+[   0.044][v][osd/libass] Done.
+[   0.045][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.046][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.046][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.046][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.053][v][lavf] Found 'ogg' at score=100 size=2048.
+[   0.071][v][lavf] avformat_find_stream_info() finished after 10429 bytes.
+[   0.071][v][demux] Detected file format: ogg (libavformat)
+[   0.071][v][cplayer] Opening done: /usr/share/sounds/freedesktop/stereo/message.oga
+[   0.071][v][find_files] Loading external files in /usr/share/sounds/freedesktop/stereo/
+[   0.072][d][global] config path: 'sub' -/-> '/home/raech/.config/mpv/sub'
+[   0.072][d][global] config path: 'sub' -/-> '/home/raech/.mpv/sub'
+[   0.072][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[   0.072][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.072][v][lavf] select track 0
+[   0.072][i][cplayer]  (+) Audio --aid=1 (vorbis 2ch 44100Hz)
+[   0.072][v][ad] Codec list:
+[   0.072][v][ad]     vorbis - Vorbis
+[   0.072][v][ad]     libvorbis (vorbis) - libvorbis
+[   0.072][v][ad] Opening decoder vorbis
+[   0.072][v][ad] Requesting 1 threads for decoding.
+[   0.073][v][ad] Selected codec: vorbis (Vorbis)
+[   0.073][v][af] User filter list:
+[   0.073][v][af]   (empty)
+[   0.073][v][cplayer] Starting playback...
+[   0.073][v][lavf] EOF reached.
+[   0.073][v][af] [in] 44100Hz stereo 2ch floatp
+[   0.074][v][af] [userspeed] 44100Hz stereo 2ch floatp
+[   0.074][v][af] [userspeed] (disabled)
+[   0.074][v][af] [convert] 44100Hz stereo 2ch floatp
+[   0.074][v][ao] Trying audio driver 'pulse'
+[   0.074][v][ao/pulse] requested format: 44100 Hz, stereo channels, floatp
+[   0.074][v][ao/pulse] Library version: 16.1.0
+[   0.074][v][ao/pulse] Proto: 35
+[   0.074][v][ao/pulse] Server proto: 4294967295
+[   0.075][v][ao/pulse] Channel layouts:
+[   0.075][v][ao/pulse]  - #fl
+[   0.075][v][ao/pulse]  - #fr
+[   0.075][v][ao/pulse]  - #fc
+[   0.076][v][ao/pulse]  - #lfe
+[   0.076][v][ao/pulse]  - #bl
+[   0.076][v][ao/pulse]  - #br
+[   0.076][v][ao/pulse]  - #flc
+[   0.076][v][ao/pulse]  - #frc
+[   0.076][v][ao/pulse]  - #bc
+[   0.076][v][ao/pulse]  - #sl
+[   0.076][v][ao/pulse]  - #sr
+[   0.076][v][ao/pulse]  - #tc
+[   0.076][v][ao/pulse]  - #tfl
+[   0.076][v][ao/pulse]  - #tfc
+[   0.076][v][ao/pulse]  - #tfr
+[   0.076][v][ao/pulse]  - #tbl
+[   0.076][v][ao/pulse]  - #tbc
+[   0.076][v][ao/pulse]  - #tbr
+[   0.076][v][ao/pulse] result: stereo
+[   0.077][v][ao/pulse] device buffer: 4410 samples.
+[   0.077][v][ao/pulse] using soft-buffer of 8820 samples.
+[   0.077][i][cplayer] AO: [pulse] 44100Hz stereo 2ch float
+[   0.077][v][cplayer] AO: Description: PulseAudio audio output
+[   0.077][v][autoconvert] inserting resampler
+[   0.077][v][swresample] format change, reinitializing resampler
+[   0.077][v][swresample] 44100Hz stereo floatp -> 44100Hz stereo float
+[   0.077][v][af] [out] 44100Hz stereo 2ch float
+[   0.078][v][cplayer] audio ready
+[   0.078][d][osc] osc_init 
+[   0.078][v][cplayer] starting audio playback
+[   0.078][v][cplayer] playback restart complete @ 0.000000, audio=playing, video=eof
+[   0.078][v][ao/pulse] starting AO
+[   0.079][v][af] filter input EOF
+[   0.079][v][af] filter output EOF
+[   0.079][v][cplayer] audio filter EOF
+[   0.080][v][cplayer] audio draining
+[   0.080][v][cplayer] audio EOF reached
+[   0.080][v][cplayer] EOF code: 1  
+[   0.080][d][ad] Uninit decoder.
+[   0.080][d][cplayer] Terminating demuxers...
+[   0.080][d][cplayer] Done terminating demuxers.
+[   0.080][v][cplayer] finished playback, success (reason 0)
+[   0.080][i][cplayer] 
+[   0.080][i][cplayer] Exiting... (End of file)
+[   0.080][d][console] Exiting...
+[   0.080][d][ytdl_hook] Exiting...
+[   0.080][d][stats] Exiting...
+[   0.081][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.081][v][cplayer] Set property: shared-script-properties -> 1
+[   0.082][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="remove", value="osc-margins"]
+[   0.082][v][cplayer] Set property: shared-script-properties -> 1
+[   0.082][d][osc] Exiting...
+[   0.084][v][cplayer] draining left over audio
+[   0.277][v][ao/pulse] audio end or underrun
+[   0.369][v][ao/pulse] audio end or underrun
